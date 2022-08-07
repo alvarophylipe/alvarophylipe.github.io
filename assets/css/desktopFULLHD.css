@@ -44,7 +44,7 @@ header, .navbar {
 
 main {
   background-color: #E9E2D2;
-  height: 4500px;
+  height: 4300px;
 }
 
 
@@ -133,7 +133,7 @@ main {
   position: absolute;
   margin-top: 90%;
   margin-left: 20%;
-  margin-right: 8%;
+  margin-right: 5%;
   text-align: left;
 
 }
@@ -142,10 +142,12 @@ main {
   margin-left: 62% !important;
 }
 
+
+
 .projects {
   position: absolute;
   margin-top: 135%;
-  margin-left: 11%;
+  margin-left: 5.5%;
 }
 
 .grid-container {
@@ -165,11 +167,10 @@ main {
 
 
 .text-block{
-  
-  margin-left: 11.5%;
+  margin-left: 3%;
   color: #00BB85;
   font-size: 30px;
-  opacity: 1;
+  opacity: 0;
 }
 
 .grid-item:hover{
@@ -202,4 +203,6 @@ footer {
   width: 50%;
 }
 
-
+.teste {
+  width: 100px;
+}
