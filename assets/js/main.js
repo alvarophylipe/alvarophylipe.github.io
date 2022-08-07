@@ -1,14 +1,9 @@
+/* not added item alert */
 function not_added_item(){
     alert('Not Added Item!');
 }
 
-function size_of_screen () {
-    var screenWidth = window.innerWidth;
-    var screenHeight = screen.height;
-    const resolution = document.querySelector('#css');
-    document.querySelector('.screen-size').innerHTML = screenWidth + 'x' + screenHeight + resolution.href;
-}
-
+/* Capturar a resolução da tela */
 function autoResize () {
     screenWidth = screen.width;
     windowWidth = window.innerWidth;
@@ -21,6 +16,7 @@ function autoResize () {
     }
 };
 
+/* Alterar a resolução da página */
 window.addEventListener('resize', function(){;
     autoResize();
 });

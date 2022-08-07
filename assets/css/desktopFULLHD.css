@@ -47,12 +47,12 @@ main {
   height: 4300px;
 }
 
+/* Home Content */
 
 .container-fluid {
   text-align: center;
   padding: 0;
 }
-
 
 #alvaro-icon {
   max-width: 60%;
@@ -66,12 +66,15 @@ main {
   margin-top: 13%;
 }
 
+/* Middle Content */
+
 
 .middle {
   color: white;
   font-size: 20px;
 }
 
+/* About Content */
 
 .about {
   position: absolute;
@@ -88,6 +91,8 @@ main {
   text-indent: 8%;
   text-align: justify;
 }
+
+/* Hobbies Content */
 
 .hobbies {
   position: absolute;
@@ -106,6 +111,7 @@ main {
 
 }
 
+/* Education Content */
 
 .education {
   position: absolute;
@@ -141,6 +147,8 @@ main {
 .p2 {
   margin-left: 62% !important;
 }
+
+/* Projects Content */
 
 
 
@@ -181,7 +189,7 @@ main {
 }
 
 
-/* footer */
+/* Footer */
 
 footer {
   background-color: #E9E2D2;
@@ -190,6 +198,8 @@ footer {
 .row {
   justify-content: center !important;
 }
+
+/* Contacts Content */
 
 .contacts {
   position: absolute;
@@ -203,6 +213,3 @@ footer {
   width: 50%;
 }
 
-.teste {
-  width: 100px;
-}
